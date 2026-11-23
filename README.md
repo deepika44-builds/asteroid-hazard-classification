@@ -128,6 +128,14 @@ This project is intended for educational and learning purposes only.
 
 Machine-learning predictions should not be treated as actual impact probabilities or professional assessments of asteroid threats. The dataset is limited, and model performance does not establish real-world predictive reliability.
 
+## Data Source & Acknowledgement
+
+This project uses asteroid-related data obtained from NASA's Near Earth Object Web Service (NeoWs) API.
+
+**Data Source:** https://api.nasa.gov/
+
+This is an independent educational project developed for learning and experimentation. It is not officially affiliated with or endorsed by NASA.
+
 ## 👩‍💻 Author
 
 Developed as an independent academic and machine-learning project.
