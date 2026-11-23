@@ -1,0 +1,38 @@
+{
+    "dataset_records": 200,
+    "hazardous_records": 48,
+    "non_hazardous_records": 152,
+    "random_forest": {
+        "accuracy": 0.88,
+        "precision": 0.7142857142857143,
+        "recall": 0.8333333333333334,
+        "f1_score": 0.7692307692307693
+    },
+    "decision_tree": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+    },
+    "model_a_features": [
+        "diameter_min_km",
+        "diameter_max_km",
+        "velocity_km_s",
+        "miss_distance_au",
+        "eccentricity",
+        "semi_major_axis_au",
+        "inclination_deg",
+        "orbital_period_days",
+        "perihelion_distance_au",
+        "aphelion_distance_au",
+        "ascending_node_deg",
+        "perihelion_argument_deg",
+        "mean_anomaly_deg",
+        "data_arc_days",
+        "observations_used"
+    ],
+    "model_b_features": [
+        "moid_au",
+        "absolute_magnitude_h"
+    ]
+}
